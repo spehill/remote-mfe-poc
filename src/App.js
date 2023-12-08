@@ -29,12 +29,12 @@ function App() {
           {APIEndPoint.startsWith('http') &&
             <APIResult />
           }
-          <img src="https://react-cors-spa-vkd498tj64.s3.amazonaws.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" className="App-MainLogo" alt="logo" />
+          <img src="https://dmv3y742dgerr.cloudfront.net/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" className="App-MainLogo" alt="logo" />
           
         </header>
-        <p>This react-based application is an example of a micro frontend hosted in an S3 bucket</p>
+        <p>This react-based application is hosted in an S3 bucket exposed through a CloudFront distribution</p>
         <div className="logos">
-            <img src="https://react-cors-spa-vkd498tj64.s3.amazonaws.com/static/media/logoS3.aaefa311c47140b02bed.png" className="App-logoR2L" alt="logo S3" />
+            <img src="https://dmv3y742dgerr.cloudfront.net/static/media/logoS3.aaefa311c47140b02bed.png" className="App-logoR2L" alt="logo S3" />
         </div>
     </div>
   );
